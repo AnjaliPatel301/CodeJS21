@@ -122,4 +122,18 @@
 // for(let i=1;i<=n;i++){
 //     console.log( (i * (i + 1) / 2) ** 2)
 // }
+
 //  ((n * (n + 1)) / 2) ** 2
+
+
+
+//4.Print only the numbers that are both even and perfect squares
+
+for (let i = 1; i <= 20; i++) {
+  if (i % 2 === 0) {
+    const sqrt = Math.sqrt(i);
+    if (Number.isInteger(sqrt)) {
+      console.log(i);
+    }
+  }
+}
